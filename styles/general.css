@@ -1,0 +1,46 @@
+p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+body {
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 96px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    font-family: Roboto, Arial;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+
+body::-webkit-scrollbar {
+    width: 14px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #656565;
+    /* dark color for the thumb */
+    border-radius: 8px;
+    border: 3px solid #fff;
+    /* light color for the border */
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #878787;
+    /* darker color on hover */
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #fff;
+    /* light color for the track */
+}
